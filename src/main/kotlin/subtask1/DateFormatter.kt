@@ -6,7 +6,6 @@ import java.time.Month
 
 class DateFormatter {
 
-    // TODO: Complete the following function
     fun toTextDay(day: String, month: String, year: String): String {
         return try {
             val currentMonth  = if (month.length == 1) "0$month" else month
