@@ -18,7 +18,7 @@ class TimeConverter {
     }
 
     private fun getHour(hour: String, up : Int = 0) =
-        when (val currentHour = (hour.toInt() + up).toString()) {
+        when ((hour.toInt() + up).toString()) {
             "0" -> "zero"
             "1" -> "one"
             "2" -> "two"
