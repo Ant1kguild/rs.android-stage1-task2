@@ -1,7 +1,5 @@
 package subtask4
 
-import com.sun.org.apache.xpath.internal.operations.Bool
-
 class Pangram {
 
     // TODO: Complete the following function
